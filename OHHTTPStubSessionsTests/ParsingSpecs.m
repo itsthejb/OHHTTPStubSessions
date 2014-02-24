@@ -15,15 +15,18 @@ __block HARSession *session = nil;
 before(^{
   NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"session"
                                                                     ofType:@"har"];
-  NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
+  NSData *data = [NSData dataWithContentsOfFile:path];
   NSError *e = nil;
+  NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&e];
+  expect(e).to.beNil();
   session = [[HARSession alloc] initWithDictionary:dictionary error:&e];
   expect(e).to.beNil();
   expect(session).to.beInstanceOf([HARSession class]);
 });
 
-it(@"", ^{
-  expect(YES).to.equal(YES);
+it(@"should parse the creator", ^{
+  expect(session.creator.name).to.equal(@"Charles Proxy");
+  expect(session.creator.version).to.equal(@"3.8.3");
 });
 
 SpecEnd

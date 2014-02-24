@@ -10,4 +10,14 @@
 
 @implementation HARSession
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionaryValue
+                             error:(NSError *__autoreleasing *)error
+{
+  return [super initWithDictionary:dictionaryValue[@"log"] error:error];
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+  return;
+}
+
 @end

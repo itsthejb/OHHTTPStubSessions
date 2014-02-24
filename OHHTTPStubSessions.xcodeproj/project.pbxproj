@@ -18,6 +18,8 @@
 		497305E218BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */; };
 		497305E518BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CC18BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a */; };
 		497305EB18BB4CDF00CD8DF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497305E918BB4CDF00CD8DF3 /* InfoPlist.strings */; };
+		49F8D32418BBC3B40019A609 /* HARCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F8D32218BBC3B40019A609 /* HARCreator.h */; };
+		49F8D32518BBC3B40019A609 /* HARCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D32318BBC3B40019A609 /* HARCreator.m */; };
 		CE1972FC4DDA4392AC8033F2 /* libPods-OHHTTPStubSessionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		497305EA18BB4CDF00CD8DF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		497305F618BB4D2600CD8DF3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		49F8D32018BBC2720019A609 /* OHHTTPStubSessionsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubSessionsTests-Prefix.pch"; sourceTree = "<group>"; };
+		49F8D32218BBC3B40019A609 /* HARCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARCreator.h; sourceTree = "<group>"; };
+		49F8D32318BBC3B40019A609 /* HARCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HARCreator.m; sourceTree = "<group>"; };
 		5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHHTTPStubSessionsTests.xcconfig"; path = "Pods/Pods-OHHTTPStubSessionsTests.xcconfig"; sourceTree = "<group>"; };
 		C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OHHTTPStubSessionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -136,8 +140,7 @@
 				497305D818BB4CDF00CD8DF3 /* OHHTTPStubSessions.h */,
 				497305D918BB4CDF00CD8DF3 /* OHHTTPStubSessions.m */,
 				497305D618BB4CDF00CD8DF3 /* Supporting Files */,
-				491B022A18BBC1A90037D0C0 /* HARSession.h */,
-				491B022B18BBC1A90037D0C0 /* HARSession.m */,
+				49F8D32118BBC3A10019A609 /* Models */,
 			);
 			path = OHHTTPStubSessions;
 			sourceTree = "<group>";
@@ -180,6 +183,17 @@
 			name = Cocoapods;
 			sourceTree = "<group>";
 		};
+		49F8D32118BBC3A10019A609 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				491B022A18BBC1A90037D0C0 /* HARSession.h */,
+				491B022B18BBC1A90037D0C0 /* HARSession.m */,
+				49F8D32218BBC3B40019A609 /* HARCreator.h */,
+				49F8D32318BBC3B40019A609 /* HARCreator.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -188,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491B022C18BBC1A90037D0C0 /* HARSession.h in Headers */,
+				49F8D32418BBC3B40019A609 /* HARCreator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491B022D18BBC1A90037D0C0 /* HARSession.m in Sources */,
+				49F8D32518BBC3B40019A609 /* HARCreator.m in Sources */,
 				497305DA18BB4CDF00CD8DF3 /* OHHTTPStubSessions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
