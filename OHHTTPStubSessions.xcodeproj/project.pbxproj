@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		02C07892185B44DD8814069A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3162CCC549084428B5CCA074 /* libPods.a */; };
+		491B022918BBC18A0037D0C0 /* session.har in Resources */ = {isa = PBXBuildFile; fileRef = 491B022818BBC18A0037D0C0 /* session.har */; };
+		491B022C18BBC1A90037D0C0 /* HARSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 491B022A18BBC1A90037D0C0 /* HARSession.h */; };
+		491B022D18BBC1A90037D0C0 /* HARSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B022B18BBC1A90037D0C0 /* HARSession.m */; };
+		491B022F18BBC1DC0037D0C0 /* ParsingSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B022E18BBC1DC0037D0C0 /* ParsingSpecs.m */; };
 		497305D018BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */; };
 		497305DA18BB4CDF00CD8DF3 /* OHHTTPStubSessions.m in Sources */ = {isa = PBXBuildFile; fileRef = 497305D918BB4CDF00CD8DF3 /* OHHTTPStubSessions.m */; };
 		497305E118BB4CDF00CD8DF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305E018BB4CDF00CD8DF3 /* XCTest.framework */; };
 		497305E218BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */; };
 		497305E518BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CC18BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a */; };
 		497305EB18BB4CDF00CD8DF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497305E918BB4CDF00CD8DF3 /* InfoPlist.strings */; };
-		497305ED18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 497305EC18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m */; };
 		CE1972FC4DDA4392AC8033F2 /* libPods-OHHTTPStubSessionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		3162CCC549084428B5CCA074 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B022818BBC18A0037D0C0 /* session.har */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = session.har; path = Fixtures/session.har; sourceTree = "<group>"; };
+		491B022A18BBC1A90037D0C0 /* HARSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARSession.h; sourceTree = "<group>"; };
+		491B022B18BBC1A90037D0C0 /* HARSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HARSession.m; sourceTree = "<group>"; };
+		491B022E18BBC1DC0037D0C0 /* ParsingSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsingSpecs.m; sourceTree = "<group>"; };
 		497305CC18BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOHHTTPStubSessions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		497305D218BB4CDF00CD8DF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,8 +49,8 @@
 		497305E018BB4CDF00CD8DF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		497305E818BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OHHTTPStubSessionsTests-Info.plist"; sourceTree = "<group>"; };
 		497305EA18BB4CDF00CD8DF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		497305EC18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubSessionsTests.m; sourceTree = "<group>"; };
 		497305F618BB4D2600CD8DF3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		49F8D32018BBC2720019A609 /* OHHTTPStubSessionsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubSessionsTests-Prefix.pch"; sourceTree = "<group>"; };
 		5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHHTTPStubSessionsTests.xcconfig"; path = "Pods/Pods-OHHTTPStubSessionsTests.xcconfig"; sourceTree = "<group>"; };
 		C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OHHTTPStubSessionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -73,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491B022718BBC1750037D0C0 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				491B022818BBC18A0037D0C0 /* session.har */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		497305C318BB4CDF00CD8DF3 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +136,8 @@
 				497305D818BB4CDF00CD8DF3 /* OHHTTPStubSessions.h */,
 				497305D918BB4CDF00CD8DF3 /* OHHTTPStubSessions.m */,
 				497305D618BB4CDF00CD8DF3 /* Supporting Files */,
+				491B022A18BBC1A90037D0C0 /* HARSession.h */,
+				491B022B18BBC1A90037D0C0 /* HARSession.m */,
 			);
 			path = OHHTTPStubSessions;
 			sourceTree = "<group>";
@@ -136,8 +153,9 @@
 		497305E618BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				497305EC18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m */,
 				497305E718BB4CDF00CD8DF3 /* Supporting Files */,
+				491B022718BBC1750037D0C0 /* Fixtures */,
+				491B022E18BBC1DC0037D0C0 /* ParsingSpecs.m */,
 			);
 			path = OHHTTPStubSessionsTests;
 			sourceTree = "<group>";
@@ -147,6 +165,7 @@
 			children = (
 				497305E818BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests-Info.plist */,
 				497305E918BB4CDF00CD8DF3 /* InfoPlist.strings */,
+				49F8D32018BBC2720019A609 /* OHHTTPStubSessionsTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +187,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491B022C18BBC1A90037D0C0 /* HARSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497305EB18BB4CDF00CD8DF3 /* InfoPlist.strings in Resources */,
+				491B022918BBC18A0037D0C0 /* session.har in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491B022D18BBC1A90037D0C0 /* HARSession.m in Sources */,
 				497305DA18BB4CDF00CD8DF3 /* OHHTTPStubSessions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497305ED18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m in Sources */,
+				491B022F18BBC1DC0037D0C0 /* ParsingSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +473,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OHHTTPStubSessions/OHHTTPStubSessions-Prefix.pch";
+				GCC_PREFIX_HEADER = "OHHTTPStubSessionsTests/OHHTTPStubSessionsTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -472,7 +494,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OHHTTPStubSessions/OHHTTPStubSessions-Prefix.pch";
+				GCC_PREFIX_HEADER = "OHHTTPStubSessionsTests/OHHTTPStubSessionsTests-Prefix.pch";
 				INFOPLIST_FILE = "OHHTTPStubSessionsTests/OHHTTPStubSessionsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
