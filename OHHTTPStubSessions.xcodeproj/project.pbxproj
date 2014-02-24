@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C07892185B44DD8814069A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3162CCC549084428B5CCA074 /* libPods.a */; };
 		497305D018BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */; };
 		497305DA18BB4CDF00CD8DF3 /* OHHTTPStubSessions.m in Sources */ = {isa = PBXBuildFile; fileRef = 497305D918BB4CDF00CD8DF3 /* OHHTTPStubSessions.m */; };
 		497305E118BB4CDF00CD8DF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305E018BB4CDF00CD8DF3 /* XCTest.framework */; };
@@ -14,6 +15,7 @@
 		497305E518BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497305CC18BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a */; };
 		497305EB18BB4CDF00CD8DF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497305E918BB4CDF00CD8DF3 /* InfoPlist.strings */; };
 		497305ED18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 497305EC18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m */; };
+		CE1972FC4DDA4392AC8033F2 /* libPods-OHHTTPStubSessionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3162CCC549084428B5CCA074 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497305CC18BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOHHTTPStubSessions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		497305D218BB4CDF00CD8DF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,6 +43,10 @@
 		497305E818BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OHHTTPStubSessionsTests-Info.plist"; sourceTree = "<group>"; };
 		497305EA18BB4CDF00CD8DF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		497305EC18BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubSessionsTests.m; sourceTree = "<group>"; };
+		497305F618BB4D2600CD8DF3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHHTTPStubSessionsTests.xcconfig"; path = "Pods/Pods-OHHTTPStubSessionsTests.xcconfig"; sourceTree = "<group>"; };
+		C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OHHTTPStubSessionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497305D018BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */,
+				02C07892185B44DD8814069A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +66,7 @@
 				497305E518BB4CDF00CD8DF3 /* libOHHTTPStubSessions.a in Frameworks */,
 				497305E218BB4CDF00CD8DF3 /* Cocoa.framework in Frameworks */,
 				497305E118BB4CDF00CD8DF3 /* XCTest.framework in Frameworks */,
+				CE1972FC4DDA4392AC8033F2 /* libPods-OHHTTPStubSessionsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,7 @@
 				497305E618BB4CDF00CD8DF3 /* OHHTTPStubSessionsTests */,
 				497305CE18BB4CDF00CD8DF3 /* Frameworks */,
 				497305CD18BB4CDF00CD8DF3 /* Products */,
+				497305F718BB4D9F00CD8DF3 /* Cocoapods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +99,8 @@
 				497305CF18BB4CDF00CD8DF3 /* Cocoa.framework */,
 				497305E018BB4CDF00CD8DF3 /* XCTest.framework */,
 				497305D118BB4CDF00CD8DF3 /* Other Frameworks */,
+				3162CCC549084428B5CCA074 /* libPods.a */,
+				C59AF12E178242BCABB7560E /* libPods-OHHTTPStubSessionsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +151,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		497305F718BB4D9F00CD8DF3 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				497305F618BB4D2600CD8DF3 /* Podfile */,
+				F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */,
+				5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */,
+			);
+			name = Cocoapods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -156,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497305F018BB4CDF00CD8DF3 /* Build configuration list for PBXNativeTarget "OHHTTPStubSessions" */;
 			buildPhases = (
+				E2CC72981B6646BCBB264CE5 /* Check Pods Manifest.lock */,
 				497305C818BB4CDF00CD8DF3 /* Sources */,
 				497305C918BB4CDF00CD8DF3 /* Frameworks */,
 				497305CA18BB4CDF00CD8DF3 /* Headers */,
+				31ABA4C0D1C1491BBE314F2F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497305F318BB4CDF00CD8DF3 /* Build configuration list for PBXNativeTarget "OHHTTPStubSessionsTests" */;
 			buildPhases = (
+				708DA45DA6934092A610EB8C /* Check Pods Manifest.lock */,
 				497305DB18BB4CDF00CD8DF3 /* Sources */,
 				497305DC18BB4CDF00CD8DF3 /* Frameworks */,
 				497305DD18BB4CDF00CD8DF3 /* Resources */,
+				0BF76EF8BAD54DE995EE55F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +250,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF76EF8BAD54DE995EE55F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OHHTTPStubSessionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31ABA4C0D1C1491BBE314F2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708DA45DA6934092A610EB8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CC72981B6646BCBB264CE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		497305C818BB4CDF00CD8DF3 /* Sources */ = {
@@ -334,6 +423,7 @@
 		};
 		497305F118BB4CDF00CD8DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OHHTTPStubSessions/OHHTTPStubSessions-Prefix.pch";
@@ -343,6 +433,7 @@
 		};
 		497305F218BB4CDF00CD8DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F487A9F2DC60477C8E4D6F54 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OHHTTPStubSessions/OHHTTPStubSessions-Prefix.pch";
@@ -352,6 +443,7 @@
 		};
 		497305F418BB4CDF00CD8DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -372,6 +464,7 @@
 		};
 		497305F518BB4CDF00CD8DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAFB97063AD4EF288F41E9B /* Pods-OHHTTPStubSessionsTests.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -405,6 +498,7 @@
 				497305F218BB4CDF00CD8DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497305F318BB4CDF00CD8DF3 /* Build configuration list for PBXNativeTarget "OHHTTPStubSessionsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +507,7 @@
 				497305F518BB4CDF00CD8DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
